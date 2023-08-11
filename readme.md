@@ -1,5 +1,17 @@
 # NLP - Fake News Detection
 
+**UPDATE 11/08/2023:** I am currently ironing out some tweaks to this project so that I can:
+
+a) Shift away from using Jupyter Notebooks and have everything entirely self-contained, using VSCode to do it. In doing this, I also want to polish things off and work more with classes.
+
+b) Improve my accuracy; since the more accurate of the two models is particularly sensitive to fake news, my hope is that I can maybe create a joint learning model that evaluates the accuracy of a given model dependent on the output of my original two models.
+
+c) Design a UI for it, allowing someone to submit an article and have it evaluated in real time. I have been dabbling in PyQT and Tkinter lately, and feel like I can put my practice with those to the test now.
+
+These are things I wanted to do during bootcamp, but had insufficient time to accomplish.
+
+
+
 ## Goals and Scope:
 **Description:** The aim of this NLP project is to create a classification model that can determine whether a given article is fake news, based on word content and structure.
 
